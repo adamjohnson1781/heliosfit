@@ -1,0 +1,15 @@
+.logo {
+	margin-bottom: 20px;
+}
+
+.trainer {
+	color: white; text-align: center;font-size: 28px; margin-top: 18px;
+}
+
+.trainer-container a:hover {
+	text-decoration: none;
+}
+
+.trainer-container img:hover {
+	opacity: 0.6;
+}
