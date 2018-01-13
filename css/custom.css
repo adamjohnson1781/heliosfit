@@ -1,0 +1,37 @@
+.helios-logo{
+	background-image: url("/icons/helios_banner_300.png");
+	background-size: cover;
+	height: 55px;
+	width: 300px;
+    display: inline-block;
+}
+
+.helios-logo-text{
+	font-family: "Arial"!important;
+	font-size: 20px!important;
+	height: 25px!important;
+}
+
+#slides .slides-container .image0{
+	background-image:url(/images/0.jpg);
+}
+
+.map-section{
+	padding: 25px;
+}
+.contact-map{
+	max-width: 500px; 
+}
+.align-left{
+	text-align: left;
+}
+.align-right{
+	text-align: right;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.justified{
+	text-align: justify!important; 
+}

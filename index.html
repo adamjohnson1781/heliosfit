@@ -1,169 +1,656 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom styles for this template -->
-<link href="mystyle.css" rel="stylesheet">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Helious Fit</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <!--Favicon -->
+  <link rel="icon" type="image/png" href="icons/helios_logo_125.png" />
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/player/YTPlayer.css" />
+  <link href="css/pro-bars.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/custom.css" />
+  <!-- End CSS Files -->
+</head>
 
 <body>
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" onclick="menuClick()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="#privateTraining" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Private Training</a>
-    <a href="#personalTrainers" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Personal Trainers</a>
-    <a href="#pricing" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Pricing</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
-  </div>
-</div>
-
-<!-- Navbar on small screens -->
-<div id="navMobile" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#privateTraining" class="w3-bar-item w3-button w3-padding-large">Private Training</a>
-  <a href="#personalTrainers" class="w3-bar-item w3-button w3-padding-large">Personal Trainers</a>
-  <a href="#pricing" class="w3-bar-item w3-button w3-padding-large">Pricing</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
-</div>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
-  <!-- Logo -->
-  <div class="w3-container  w3-content w3-center" style="max-width:800px">
-    <img class="logo" src="image/log.jpg">
-  </div>
-
-  <!-- The Private Training Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="privateTraining">
-    <h2 class="w3-wide">Private Training</h2>
-    <p class="w3-justify" style="margin-top: 32px">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-
-  <!-- The Personal Trainers Section -->
-  <div class="w3-black" id="personalTrainers">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">Personal Trainers</h2>
-
-      <div class="w3-row-padding w3-padding-32 trainer-container" style="margin:0 -16px">
-        <a class="w3-margin-bottom" href="#personalTrainers">
-          <img src="image/adam.jpg" alt="Adam Johnson" style="width:100%">
-          <div class="w3-container">
-            <p class="trainer">Adam Johnson</p>
+  <!-- Navigation -->
+  <section id="navigation" class="dark-nav">
+    <!-- Navigation Inner -->
+    <div class="nav-inner">
+      <!-- Site Logo -->
+      <div class="site-logo">
+        <a href="#" id="logo-text" class="scroll logo helios-logo">
+				</a>
+      </div>
+      <!-- End Site Logo -->
+      <a class="mini-nav-button gray2"><i class="fa fa-bars"></i></a>
+      <!-- Navigation Menu -->
+      <div class="nav-menu">
+        <ul class="nav uppercase">
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#pricing" class="scroll">Pricing</a></li>
+          <li><a href="#about" class="scroll">About us</a></li>
+          <li><a href="#facilities" class="scroll">Facilities</a></li>
+          <li><a href="#trainers" class="scroll">Trainers</a></li>
+          <li><a href="#testimonial" class="scroll">Testimonial</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+        </ul>
+      </div>
+      <!-- End Navigation Menu -->
+    </div>
+    <!-- End Navigation Inner -->
+  </section>
+  <!-- End Navigation Section -->
+  <!-- Home Section -->
+  <section id="home" class="relative">
+    <div id="slides">
+      <div class="slides-container relative">
+        <!-- Slider Images -->
+        <div class="image0"></div>
+        <div class="image2"></div>
+        <div class="image1"></div>
+        <div class="image3"></div>
+        <div class="image4"></div>
+        <!-- End Slider Images -->
+      </div>
+      <!-- Slider Controls -->
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+    <!-- End Home Slides -->
+    <div class="v2 absolute">
+      <!-- Auto Typocraphic Texts -->
+      <div class="typographic">
+        <!-- Your Logo -->
+        <div class="logo">
+          <img src="icons/helios_logo_250.png" width="100" alt="Logo" />
+        </div>
+        <h2 class=" condensed uppercase no-padding no-margin bold gray1">Personal training</h2>
+        <h2 class=" condensed uppercase no-padding no-margin bold colored">For everyone</h2>
+        <a href="#about" class="scroll"><i class="arrow-down fa fa-3x fa-angle-double-down"></i></a>
+      </div>
+      <!--End Auto Typocraphic Texts -->
+    </div>
+    <!-- End V2 area -->
+  </section>
+  <!-- End Home Section -->
+  <!-- Fun Acts -->
+  <section id="pricing" class="container"> 
+    <div class="inner pricing">
+      <div class="about-margin"></div>
+      <a class="about-icon">
+			<i class="fa fa-life-ring"></i>
+		</a>
+      <br />
+      <h1 class="header light gray1 animated" data-animation="fadeInLeft" data-animation-delay="400">
+			 Winners Train,<span class="colored" data-animation="fadeInRight">Losers Complain</span></h1>
+      <p class="h-desc"><span class="colored">Starting from $X per hour</span>, you get hands-on training from proven professionals who worked with hundreds of clients, and helped many get in shape within a few months</p>
+    </div>
+  </section>
+  <!-- End Fun Acts Section -->
+  <!-- About -->
+  <section id="about" class="container waypoint">
+    <div class="inner">
+      <!-- Header -->
+      <h1 class="header light gray3">About <span class="colored">Helios Fit</span></h1>
+      <!-- Description -->
+      <p class="h-desc gray4 justified"><span class="colored bold">Adam Johnson</span>, one of the most popular trainers over the last 7 years at Overtime Fitness (recognized as <span class="colored bold">Best in Mountain View</span> by The Voice for many consecutive years), started Helios Fit in January 2018. He is trusted by clients from Google, Microsoft, Ernst &amp; Yang, and many others in the neighborhood. Born in a family of competitive fitness enthusiasts, he received his own training since early childhood, and has never stopped in perfecting his skills in fitness and techniques of personal training.
+        <br/>
+        <br/>
+      </p>
+      <p class="h-desc gray4 justified">If you are a trainer who is equally passionate about fitness, <span class="colored">Helios Fit</span> could be the best place for you.
+        <br/>
+        <br/>We offer the <span class="colored">least expensive</span> training space in Mountain View, starts with only $1000 per month, at $30 per client session. <a href="#contact" class="colored scroll">Contact us</a> to find out more!</p>
+      <hr>
+    </div>
+    <!-- End About Inner -->
+  </section>
+  <!-- End About Section -->
+  <!-- Features -->
+  <section id="facilities" class="container">
+    <div class="inner">
+      <!-- Header -->
+      <h1 class="header light gray1">Our <span class="colored">Facilities</span></h1>
+      <!-- Description -->
+      <p class="h-desc white bold">lorem Ipsum is<span class="colored bold"> lorem Ipsum</span> lorem Ipsum is simply dummy text of the printing and typesetting industry loremipsum. lorem Ipsum is simply dummy text of the printing and typesetting industry loremipsum is simple.</p>
+      <div class="features-boxes">
+        <!-- Box 1 -->
+        <div class="col-xs-4 f-box animated" data-animation="fadeIn" data-animation-delay="0">
+          <!-- Icon -->
+          <a class="f-icon">
+						<i class="fa fa-eye"></i>
+					</a>
+          <!-- Header -->
+          <p class="feature-head">Retina Ready</p>
+          <!-- Text -->
+          <p class="feature-text ">lorem Ipsum is lorem Ipsum of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+        </div>
+        <!-- Box 2 -->
+        <div class="col-xs-4 f-box animated" data-animation="fadeIn" data-animation-delay="100">
+          <!-- Icon -->
+          <a class="f-icon">
+						<i class="fa fa-tablet"></i>
+					</a>
+          <!-- Header -->
+          <p class="feature-head">Responsive Framework</p>
+          <!-- Text -->
+          <p class="feature-text ">lorem Ipsum is lorem Ipsum of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+        </div>
+        <!-- Box 3 -->
+        <div class="col-xs-4 f-box animated" data-animation="fadeIn" data-animation-delay="200">
+          <!-- Icon -->
+          <a class="f-icon">
+						<i class="fa fa-flask"></i>
+					</a>
+          <!-- Header -->
+          <p class="feature-head">Parallax Design</p>
+          <!-- Text -->
+          <p class="feature-text light">lorem Ipsum is lorem Ipsum of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <!-- End Features Boxes -->
+    </div>
+    <!-- End Features Inner -->
+  </section>
+  <!-- End Features Section -->
+  <!-- Clients -->
+  <section id="trainers" class="container">
+    <!-- Team Inner -->
+    <div class="inner team">
+      <!-- Header -->
+      <h1 class="header light gray3"><span class="colored">Our </span> Trainers</h1>
+      <!-- Description -->
+      <p class="h-desc gray4">lorem Ipsum is<span class="colored bold">  lorem Ipsum</span> lorem Ipsum is simply dummy text of the printing and typesetting industry loremipsum. lorem Ipsum is simply dummy text of the printing and typesetting industry loremipsum is simple.</p>
+      <!-- Members -->
+      <div class="team-members inner-details">
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="trainers/adam.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Adam Johnson</h2>
+                <!-- Description -->
+                <p class="member-description">Adam is a pro!</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Link -->
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
           </div>
-        </a>
-<!-- 
-        <a class="w3-third w3-margin-bottom" href="#personalTrainers">
-          <img src="image/adam.jpg" alt="Adam Johnson" style="width:100%">
-          <div class="w3-container">
-            <p class="trainer">Adam Johnson</p>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/9.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Link -->
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
           </div>
-        </a>
-
-        <a class="w3-third w3-margin-bottom" href="#personalTrainers">
-          <img src="image/adam.jpg" alt="Adam Johnson" style="width:100%">
-          <div class="w3-container">
-            <p class="trainer">Adam Johnson</p>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="100">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/2.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Image -->
+                  <a href="#"><i class="fa fa-camera"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
           </div>
-        </a> -->
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="200">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/3.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Link -->
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="300">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/4.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Image -->
+                  <a href="#"><i class="fa fa-camera"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="400">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/5.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Link -->
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/6.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Link -->
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="100">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/7.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Image -->
+                  <a href="#"><i class="fa fa-camera"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="200">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/8.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Link -->
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+        <!-- Member -->
+        <div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="500">
+          <div class="member-inner">
+            <!-- Team Member Image -->
+            <a class="team-image">
+              <!-- Img -->
+              <img src="images/clients/1.jpg" alt="" />
+            </a>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <!-- Name -->
+                <h2 class="member-name light">Lorem ipsum dolor</h2>
+                <!-- Description -->
+                <p class="member-description">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <!-- Socials -->
+                <div class="socials">
+                  <!-- Image -->
+                  <a href="#"><i class="fa fa-camera"></i></a>
+                </div>
+                <!-- End Socials -->
+              </div>
+              <!-- End Detail Inner -->
+            </div>
+            <!-- End Details -->
+          </div>
+          <!-- End Member Inner -->
+        </div>
+        <!-- End Member -->
+      </div>
+      <!-- End Members -->
+    </div>
+    <!-- End Team Inner -->
+  </section>
+  <!-- End Team Section -->
+  <!-- Testimonials -->
+  <section id="testimonial" class="testimonials parallax2">
+    <div class="inner">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <ul>
+              <li class="monial">
+                <!-- Text -->
+                <h1 class="condensed white">"<span class="colored">Adam </span> is a pro. I got six packs in less than 4 months by training with him."</h1>
+                <!-- Name -->
+                <p class="light">Aaron Li</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item ">
+            <ul>
+              <li class="monial">
+                <!-- Text -->
+                <h1 class="condensed white">"<span class="colored">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit. Cras euismod vestibulum orci, mollis vulpute felis dapibus sed. Nam ullamcorper congue elit."</h1>
+                <!-- Name -->
+                <p class="light">John Doe</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li class="monial">
+                <!-- Text -->
+                <h1 class="condensed white">"<span class="colored">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit. Cras euismod vestibulum orci, mollis vulputate felis dapibus sed. Nam ullamcorper congue elit."</h1>
+                <!-- Name -->
+                <p class="light">Severe Dane</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+    <!-- End Inner Div -->
+  </section>
+  <!-- End Testimonials Section -->
+  <!-- Blockquote -->
+  <!-- 	<section id="blockquote">
 
-  <!-- The Pricing Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="pricing">
-    <h2 class="w3-wide w3-center">PRICING</h2>
-    Cheapest in Silicon Valley
-  </div>
+		<div class="inner no-padding">
+			<p class="normal white blockquote">This is our Client's motivation, we work with Passion! 
+			<a href="#about" class="scroll"><i class="fa fa-arrow-right"></i></a></p>
+		</div>
 
-  <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <!-- <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p> -->
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> 2464 W El Camino Real, Mountain View, CA 94040 <br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +1(650)576-2308<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: @mail.com<br>
-      </div>
-      <div class="w3-col">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+	</section> -->
+  <!-- End Blockquote Section -->
+  <!-- Contact Section -->
+  <section id="contact" class="container parallax4">
+    <!-- Contact Inner -->
+    <div class="inner contact">
+      <!-- Form Area -->
+      <div class="contact-form">
+        <h4 class="header light gray3"><span class="colored">Contact</span> Us</h4>
+        <div class="row vertical-align">
+          <div class="col-xs-6">
+            <div class="map-section align-right">
+              <a href="https://www.google.com/maps/place/2464+W+El+Camino+Real,+Mountain+View,+CA+94040/@37.3992175,-122.1107894,17z/data=!3m1!4b1!4m5!3m4!1s0x808fb09839fd4e5f:0xfc54a2e0439ac173!8m2!3d37.3992133!4d-122.1086007"><img class="contact-map" src="/images/map.png"/></a>
             </div>
           </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <div class="col-xs-6">
+            <div id="site-socials" class="no-padding align-left">
+              <div class="socials animated" data-animation="fadeInLeft" data-animation-delay="400">
+                <!-- Facebook -->
+                <a href="#" target="_blank" class="social">
+									<i class="fa fa-facebook"></i>
+								</a>
+                <!-- Twitter -->
+               <!--  <a href="#" target="_blank" class="social">
+									<i class="fa fa-twitter"></i>
+								</a> -->
+                <!-- Instagram -->
+                <a href="#" class="social">
+									<i class="fa fa-instagram"></i>
+								</a>
+                <!-- Linkedin -->
+                <!-- <a href="#" target="_blank" class="social">
+									<i class="fa fa-linkedin"></i>
+								</a> -->
+                <!-- Vimeo -->
+                <!-- <a href="#" target="_blank" class="social">
+									<i class="fa fa-vimeo-square"></i>
+								</a> -->
+                <!-- Youtube -->
+                <a href="#" target="_blank" class="social">
+									<i class="fa fa-youtube"></i>
+								</a>
+                <!-- Google Plus -->
+                <!-- <a href="#" target="_blank" class="social">
+									<i class="fa fa-google-plus"></i>
+								</a> -->
+              </div>
+            </div>
+            <p class="h-desc white align-left">2464 W El Camino Real, Mountain View, CA 94040
+              <br />
+              <br/> Phone: <span class="bold colored">+1 (650) 576-2308</span>
+              <br/>
+              <br/> Email: <span class="bold colored">adamjohns1781@gmail.com</span>
+              <br/>
+              <br/>
+            </p>
+          </div>
+        </div>
+        <!-- Form -->
+        <form id="contact-us" method="post" action="#">
+          <!-- Left Inputs -->
+          <div class="col-xs-6 animated" data-animation="fadeInLeft" data-animation-delay="300">
+            <!-- Name -->
+            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+            <!-- Email -->
+            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+            <!-- Subject -->
+            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+          </div>
+          <!-- End Left Inputs -->
+          <!-- Right Inputs -->
+          <div class="col-xs-6 animated" data-animation="fadeInRight" data-animation-delay="400">
+            <!-- Message -->
+            <textarea name="message" id="message" class="form textarea" placeholder="Message"></textarea>
+          </div>
+          <!-- End Right Inputs -->
+          <!-- Bottom Submit -->
+          <div class="relative fullwidth col-xs-12">
+            <!-- Send Button -->
+            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+          </div>
+          <!-- End Bottom Submit -->
+          <!-- Clear -->
+          <div class="clear"></div>
         </form>
+        <!-- Your Mail Message -->
+        <div class="mail-message-area">
+          <!-- Message -->
+          <div class="alert gray-bg mail-message not-visible-message">
+            <strong>Thank You !</strong> Your email has been delivered.
+          </div>
+        </div>
       </div>
+      <!-- End Contact Form Area -->
     </div>
-  </div>
-  
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-    <h2 class="w3-wide w3-center">LOCATION</h2>
-    <img style="margin-top: 32px; width: 100%" src="image/map.png"/>
-  </div>
-  
-<!-- End Page Content -->
-</div>
+    <!-- End Inner -->
+  </section>
+  <!-- End Contact Section -->
 
-
-
-<!-- Add Google Maps --><!-- 
-<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
-<script>
-function myMap() {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <!-- Your Company Name -->
+    <img src="icons/helios_banner_300.png" width="200" alt="Logo" />
+    <!-- Copyright -->
+    <p class="copyright normal">© 2017 <span class="colored">Helios Fit</span> All Rights Reserved.</p>
+  </footer>
+  <!-- End Footer -->
+  <!-- JS Files -->
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.appear.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/modernizr-latest.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.superslides.js"></script>
+  <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="js/jquery.slabtext.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script>
+  $("a.about-icon").hover(function() {
+    $(this).children("i").addClass("fa-spin");
+  }, function() {
+    $(this).children("i").removeClass("fa-spin");
   });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-<script type="text/javascript">
-  
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function menuClick() {
-    var x = document.getElementById("navMobile");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 
-</body>
-</html>
+  <
+  /body>
 
+  <
+  /html>
