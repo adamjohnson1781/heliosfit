@@ -35,3 +35,7 @@
 .justified{
 	text-align: justify!important; 
 }
+.big-font{
+	font-size: 1.3em;
+
+}
